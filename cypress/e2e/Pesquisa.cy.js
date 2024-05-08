@@ -1,11 +1,8 @@
 describe('Pesquisa por usuarios',()=>{
     before('Email para pesquisa',()=>{
         cy.visit('https://rarocrud-frontend-88984f6e4454.herokuapp.com/users');
-        cy.contains('a[href="/users/novo"]', 'Novo').click();
-        cy.get('#name').type('Zico');
-        cy.get('#email').type('galo@gmail.com');
-        cy.contains('button', 'Salvar').click();
-        cy.contains('a[href="/users"]','Voltar').click();
+        cy.login();
+        
       });
     beforeEach('Visita',()=>{
         cy.visit('https://rarocrud-frontend-88984f6e4454.herokuapp.com/users');
