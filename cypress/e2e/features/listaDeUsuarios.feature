@@ -32,10 +32,4 @@ Feature: Listagem de Usuarios
         Then passam-se as paginas e voltam=se as paginas
         
     
-    
-    # Scenario: Verificaçao da função ver detalhes
-    #     Given que acessei a Funcionalidade de Listagem de usuarios
-    #     When existem usuarios cadastrados
-    #     When é selecionado a opção ver detalhes
-    #     Then o usuario vera detalhes da conta escolhida
 
