@@ -1,19 +1,16 @@
 {
-  "baseUrl": "rarocrud-frontend-88984f6e4454.herokuapp.com/users",
-  "keywords" : [],
+  "baseUrl": "https://raromdb-frontend-c7d7dc3305a0.herokuapp.com",
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepsDefinitions" :true,
-    "stepDefinitions":"cypress/support/steps/[filepart].step.js"
-},
-
+    "nonGlobalStepsDefinitions": true,
+    "stepDefinitions": "cypress/support/steps/[filepart].step.js"
+  },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
-    "cypress": "^13.8.1"
+    "cypress": "^13.9.0"
   },
-  
-  
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
